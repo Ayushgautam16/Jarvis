@@ -34,4 +34,10 @@ if __name__ == "__main__":
             from GreetMe import greetMe
             greetMe()
 
+  while True:
+                query = takeCommand().lower()
+                if "go to sleep" in query:
+                    speak("Ok sir , You can me call anytime")
+                    break 
+
           
